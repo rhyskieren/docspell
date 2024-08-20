@@ -199,52 +199,48 @@ fr tz =
     , periodicQueryTask = Messages.Comp.PeriodicQueryTaskManage.fr tz
     , channelManage = Messages.Comp.NotificationChannelManage.fr
     , otpSetup = Messages.Comp.OtpSetup.fr tz
-    , userSettings = "Paramètres utilisateur"
-    , uiSettings = "Paramètres UI"
-    , notifications = "Notifications"
-    , scanMailbox = "Scanner Boite Mail"
-    , emailSettingSmtp = "Configuration E-Mail (SMTP)"
-    , emailSettingImap = "Configuration E-Mail (IMAP)"
-    , changePassword = "Changer le mot de passe"
-    , channelSettings = "Canaux de notifications"
+        , userSettings = "Настройки пользователя"
+    , uiSettings = "Настройки интерфейса"
+    , notifications = "Уведомления"
+    , scanMailbox = "Сканировать почтовый ящик"
+    , emailSettingSmtp = "Настройки электронной почты (SMTP)"
+    , emailSettingImap = "Настройки электронной почты (IMAP)"
+    , changePassword = "Изменить пароль"
+    , channelSettings = "Каналы уведомлений"
     , uiSettingsInfo =
-        "Ces paramètres n'affectent que l'interface web. Les paramètres peuvent être enregistrer "
-            ++ " dans les profiles utilsateur ou de groupe. Les paramètres utilsateurs ont la priorité."
+        "Эти настройки касаются только веб-интерфейса. Настройки могут быть сохранены "
+            ++ "в профилях пользователя или группы. Настройки пользователя имеют приоритет."
     , scanMailboxInfo1 =
-        "Docspell scanne les dossiers de votre boite mail pour importer vos mails. "
-            ++ "La connexion doit être configurée"
-            ++ " dans les paramètres email (imap)."
+        "Docspell сканирует папки вашего почтового ящика для импорта ваших писем. "
+            ++ "Подключение должно быть настроено"
+            ++ "в настройках электронной почты (IMAP)."
     , scanMailboxInfo2 =
         """
-            Docpsell parcourt tous les dossiers configurés et importe
-            les mails correspondant aux critères de recherche. Les
-            mails précédement importés (avec documents toujours présents)
-            sont ignorés. Après import d'un mail dans docspell, il
-            est possible de le déplacer dans un autre répertoire, le
-            supprimer ou ne rien faire. Dans ce dernier cas
-            la programmation devra être ajustée afin de ne pas
-            relir ce mail encore une fois."""
-    , otpMenu = "Authentification à 2 facteurs"
-    , dueItems = "requête des Documents à échéance"
+            Docspell проходит по всем настроенным папкам и импортирует
+            письма, соответствующие критериям поиска. Ранее импортированные письма
+            (с документами, которые все еще присутствуют) игнорируются. После импорта письма в docspell,
+            его можно переместить в другой каталог, удалить или ничего не делать. В последнем случае
+            нужно настроить расписание, чтобы письмо не было снова прочитано."""
+    , otpMenu = "Двухфакторная аутентификация"
+    , dueItems = "Запрос документов с истекающим сроком"
     , notificationInfoText = """
 
-Docspell peut envoyer des notifications pour divers événements. 
-Les canaux suivants sont possible pour envoyer des message: 
-[Matrix](https://matrix.org), [Gotify](https://gotify.net) or E-Mail.
-Enfin il est possible d'envoyer de vrai requête http avec les détails
-de l'événement contenus dans le payload.
+Docspell может отправлять уведомления о различных событиях.
+Следующие каналы доступны для отправки сообщений: 
+[Matrix](https://matrix.org), [Gotify](https://gotify.net) или E-Mail.
+Кроме того, возможно отправлять настоящие HTTP-запросы с деталями
+события, содержащимися в полезной нагрузке.
 
-De plus, il est possible de paramétrer des requêtes exécutées périodiquement
-dont les résultats seront transmis via une notification.
+Также можно настроить периодические запросы,
+результаты которых будут передаваться через уведомление.
 
-Le paramétrage d'une notification nécessite la création au préalable d'au
-moins un canal de communication.
+Настройка уведомления требует предварительного создания хотя бы одного
+канала связи.
 
 """
-    , webhookInfoText = """Les webhooksWebhooks executent une requête http en réponse à certains évenements dans docspell.
-"""
-    , dueItemsInfoText = """Docspell peut vous notifier quand la data d'échéance de vos documents approche.  """
-    , periodicQueryInfoText = "Des requêtes périodiques peuvent être définies."
-    , channels = "Canaux de notification"
-    , channelInfoText = "Les canaux sont utilisés pour envoyer des messages de notification."
+    , webhookInfoText = """Webhook'и выполняют HTTP-запрос в ответ на определенные события в docspell."""
+    , dueItemsInfoText = """Docspell может уведомлять вас, когда дата истечения срока ваших документов приближается."""
+    , periodicQueryInfoText = "Можно настроить периодические запросы."
+    , channels = "Каналы уведомлений"
+    , channelInfoText = "Каналы используются для отправки уведомлений."
     }

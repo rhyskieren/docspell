@@ -84,22 +84,21 @@ fr : Texts
 fr =
     { basics = Messages.Basics.fr
     , httpError = Messages.Comp.HttpError.fr
-    , createNewInvitations = "Créer de nouvelles invitations"
-    , invitationKey = "Clé d'invitation"
-    , password = "Mot de passe"
-    , reset = "Reset"
-    , newInvitationCreated = "Nouvelle invitation créée."
+    , createNewInvitations = "Создать новые приглашения"
+    , invitationKey = "Ключ приглашения"
+    , password = "Пароль"
+    , reset = "Сбросить"
+    , newInvitationCreated = "Новое приглашение создано."
     , inviteInfo =
         """
-Docspell requiert une invitation pour s'inscrire. Les
-invitations peuvent être créées ici et envoyées  à des
-amis afin qu'ils puissent s'inscrire.
+Для регистрации в Docspell требуется приглашение. 
+Приглашения можно создать здесь и отправить друзьям, 
+чтобы они могли зарегистрироваться.
 
-Chaque invitation peut être utilisée uniquement une
-seule fois.  Chaque nouvelle personne invitée nécessitera
-la création d'une nouvelle clé.
+Каждое приглашение может быть использовано только 
+один раз. Для каждого нового приглашённого необходимо 
+создать новый ключ.
 
-La création d'invitation requiert de fournir le mot 
-de passe configuré.
+Для создания приглашения требуется ввести настроенный пароль.
 """
     }

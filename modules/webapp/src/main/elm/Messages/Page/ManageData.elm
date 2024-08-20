@@ -93,8 +93,8 @@ fr tz =
     , bookmarkManage = Messages.Comp.BookmarkManage.fr
     , addonArchiveManage = Messages.Comp.AddonArchiveManage.fr
     , addonRunConfigManage = Messages.Comp.AddonRunConfigManage.fr tz
-    , manageData = "Gestion des métadonnées"
-    , bookmarks = "Favoris"
-    , addonArchives = "Addons"
-    , addonRunConfigs = "Addon Run Configurations"
+    , manageData = "Управление метаданными"
+    , bookmarks = "Избранное"
+    , addonArchives = "Дополнения"
+    , addonRunConfigs = "Конфигурации запуска дополнений"
     }

@@ -69,9 +69,9 @@ fr tz =
     , field = Messages.Data.Fields.fr
     , formatDateLong = Messages.DateFormat.formatDateLong French tz
     , formatDateShort = Messages.DateFormat.formatDateShort French tz
-    , authFailed = "Ce partage n'existe pas."
+    , authFailed = "Это совместное использование не существует."
     , httpError = Messages.Comp.HttpError.fr
-    , tagsAndFields = "Tags & champs"
-    , noName = "Aucun nom"
-    , unconfirmed = "Non validé"
+    , tagsAndFields = "Теги и поля"
+    , noName = "Без имени"
+    , unconfirmed = "Не подтверждено"
     }

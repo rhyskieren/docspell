@@ -55,9 +55,9 @@ fr : Texts
 fr =
     { searchMenu = Messages.Comp.SearchMenu.fr
     , multiEdit = Messages.Comp.ItemDetail.MultiEditMenu.fr
-    , editMode = "Mode édition"
-    , resetSearchForm = "Réinitialiser le formulaire de recherche"
-    , multiEditHeader = "Multi-Edit"
-    , multiEditInfo = "Veuillez noter qu'un changement ici, affecte immédiatement tous les documents sélectionnés à droite !"
-    , close = "Fermer"
+    , editMode = "Режим редактирования"
+    , resetSearchForm = "Сбросить форму поиска"
+    , multiEditHeader = "Массовое редактирование"
+    , multiEditInfo = "Обратите внимание, что изменения здесь немедленно затрагивают все выбранные документы справа!"
+    , close = "Закрыть"
     }

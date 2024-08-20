@@ -51,11 +51,11 @@ de =
 fr : Texts
 fr =
     { basics = Messages.Basics.fr
-    , default = "Défaut"
-    , welcomeName = "Message de bienvenue"
-    , welcomeTitle = "# Bienvenue sur  Docspell"
-    , welcomeBody = "Docspell garde vos documents organisés"
-    , summaryName = "Résumé"
-    , dueInDays = \n -> "Échéance dans " ++ String.fromInt n ++ " jours"
-    , newDocsName = "Nouveaux documents"
+    , default = "По умолчанию"
+    , welcomeName = "Приветственное сообщение"
+    , welcomeTitle = "# Добро пожаловать в Docspell"
+    , welcomeBody = "Docspell помогает вам организовать документы"
+    , summaryName = "Резюме"
+    , dueInDays = \n -> "Срок через " ++ String.fromInt n ++ " дней"
+    , newDocsName = "Новые документы"
     }

@@ -47,6 +47,6 @@ fr : TimeZone -> Texts
 fr tz =
     { itemDetail = Messages.Comp.ItemDetail.fr tz
     , editForm = Messages.Comp.ItemDetail.EditForm.fr tz
-    , editMetadata = "Editer les métadonnées"
-    , collapseExpand = "Réduire/Etendre"
+    , editMetadata = "Редактировать метаданные"
+    , collapseExpand = "Свернуть/Развернуть"
     }
